@@ -28,3 +28,24 @@ else {
   Console.WriteLine("-> третьей цифры нет");
 }
 
+//Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+// 6 -> да
+// 7 -> да
+// 1 -> нет
+
+Console.WriteLine("Задача 15 ");
+
+Console.Write("Введи число: ");
+
+int Num = int.Parse (Console.ReadLine());
+if (Num <= 5);
+
+  Console.WriteLine("не выходной");
+
+else if ((Num >=6) && (Num <=7)); {
+  Console.WriteLine("выходной");
+}
+
+else 
+  Console.WriteLine("Choose figure from 1 to 7");
+
